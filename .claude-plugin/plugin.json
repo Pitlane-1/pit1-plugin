@@ -1,0 +1,16 @@
+{
+  "name": "pit1",
+  "version": "1.0.0",
+  "description": "AI-powered infra agent. Analyze code → recommend cloud infra → deploy. Works with AWS, GCP, Hetzner, Vultr, Oracle, Vercel.",
+  "author": "Pitlane-1",
+  "hooks": "hooks/hooks.json",
+  "skills": [
+    "skills/pit1/SKILL.md"
+  ],
+  "commands": [
+    "commands/deploy.md",
+    "commands/analyze.md",
+    "commands/plan.md",
+    "commands/status.md"
+  ]
+}

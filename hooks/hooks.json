@@ -1,0 +1,16 @@
+{
+  "hooks": [
+    {
+      "event": "SessionStart",
+      "script": "scripts/session-start.sh"
+    },
+    {
+      "event": "Stop",
+      "script": "scripts/notify-done.sh"
+    },
+    {
+      "event": "Task",
+      "script": "scripts/notify-done.sh"
+    }
+  ]
+}
